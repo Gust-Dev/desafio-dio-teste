@@ -1,4 +1,8 @@
-let Xp = 2002
+
+
+
+
+let Xp = 920500545612
 let player = "APOLO"
 let elos = ["Ferro", "Bronze","Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 let eloDefined = null
@@ -11,7 +15,7 @@ let eloDefined = null
             eloDefined = elos[0]
         }else if (Xp >= 2001 && Xp < 5001){
             eloDefined = elos[2]
-        }else if (Xp >= 5001 && Xp < 7001 ){
+        }else if (Xp >= 5001 && Xp < 7001){
             eloDefined = elos[3]
         }else if (Xp >= 7001 && Xp < 8001){
             eloDefined = elos[4]
@@ -25,6 +29,6 @@ let eloDefined = null
             eloDefined = "Usuario Sem Rank"
         }
         
-    let player1 = player + " Sua experiencia é: " + Xp + " Seu Elo é: " + eloDefined
+    let player1 = player+"," + " Sua experiencia é: " + "( " + Xp +" )" + " E Seu Nivel é: " + eloDefined
 
     console.log(player1)
