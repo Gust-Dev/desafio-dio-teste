@@ -1,7 +1,12 @@
+//Variaveis usaveis
+
 let Xp = 920500
 let player = "APOLO"
 let elos = ["Ferro", "Bronze","Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 let eloDefined = null
+
+
+//Estrutura de condições com definição de Nivel
 
         if (Xp >= 1001 && Xp < 2001) {
          eloDefined = elos[1]
@@ -28,3 +33,5 @@ let eloDefined = null
     let player1 = "O Heroi de nome, "+ player+"," + " Tem a experiencia atual de: " + "( " + Xp +" )" + " E esta no nivel: " + eloDefined
 
     console.log(player1)
+
+    //Atividade finalizada com saida esperada!
