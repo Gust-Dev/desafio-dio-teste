@@ -1,8 +1,4 @@
-
-
-
-
-let Xp = 920500545612
+let Xp = 920500
 let player = "APOLO"
 let elos = ["Ferro", "Bronze","Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 let eloDefined = null
@@ -29,6 +25,6 @@ let eloDefined = null
             eloDefined = "Usuario Sem Rank"
         }
         
-    let player1 = player+"," + " Sua experiencia é: " + "( " + Xp +" )" + " E Seu Nivel é: " + eloDefined
+    let player1 = "O Heroi de nome, "+ player+"," + " Tem a experiencia atual de: " + "( " + Xp +" )" + " E esta no nivel: " + eloDefined
 
     console.log(player1)
